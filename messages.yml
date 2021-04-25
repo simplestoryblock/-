@@ -84,32 +84,32 @@ loginSuccessLoggedChat: |-
   &f
   &8[&a&l»&8] &7If you do not want to login next time, please execute:
   &f
-  &f  &a&l» &7/premium <password> - if you have a &apremium&7 luncher.
-  &f  &a&l» &7/startsession - if you have a &ccracked&7 luncher.
+  &f  &a&l» &7/premium <password> - ถ้าคุณมี &apremium&7 luncher.
+  &f  &a&l» &7/startsession - ถ้าคุณมี &ccracked&7 luncher.
   &f
 
-registerErrorUserBedrock: '&8[&c&l»&8] &7You are a bedrock player!'
-registerErrorUserPremium: '&8[&c&l»&8] &7You are a premium player!'
-registerErrorUserAlreadyRegistered: '&8[&c&l»&8] &7You are already registered!'
+registerErrorUserBedrock: '&8[&c&l»&8] &7คุณเป็น bedrock player!'
+registerErrorUserPremium: '&8[&c&l»&8] &7คุณเป็น premium player!'
+registerErrorUserAlreadyRegistered: '&8[&c&l»&8] &7คุณเคยลงทะเบียนแล้ว!'
 registerErrorUsage: '&8[&c&l»&8] &7Usage: /register <password> <captcha>'
-registerErrorDifferentPasswords: '&8[&c&l»&8] &7The passwords are different!'
-registerErrorUnsafePassword: '&8[&c&l»&8] &7A password need to have at least 6 chars of length!'
-registerErrorPasswordContainsNickname: '&8[&c&l»&8] &7A password cannot contain your nickname!'
-registerErrorPasswordTooWeak: '&8[&c&l»&8] &7A password is too weak!'
-registerErrorWrongCaptchaCode: '&8[&c&l»&8] &7A wrong captcha code!'
-registerErrorUserHasTooManyAccounts: '&8[&c&l»&8] &7You have too many accounts!'
+registerErrorDifferentPasswords: '&8[&c&l»&8] &7รหัสผ่านไม่เหมือนกัน!'
+registerErrorUnsafePassword: '&8[&c&l»&8] &7A รหัสผ่านต้องมีความยาวอย่างน้อย 6 ตัวอักษร!'
+registerErrorPasswordContainsNickname: '&8[&c&l»&8] &7A รหัสผ่านต้องไม่มีชื่อเล่นของคุณ!'
+registerErrorPasswordTooWeak: '&8[&c&l»&8] &7A รหัสผ่านอ่อนแอเกินไป!'
+registerErrorWrongCaptchaCode: '&8[&c&l»&8] &7A โค้ด Captcha ผิด!'
+registerErrorUserHasTooManyAccounts: '&8[&c&l»&8] &7คุณมีบัญชีมากเกินไป!'
 registerErrorTimeElapsed: '&8[&c&l»&8] &7An authorisation time elapsed!'
-registerBossBarTimerTitle: '&6[&e&l»&6] &eRemain time to authorization is &6%time%&es &6[&e&l«&6]'
+registerBossBarTimerTitle: '&6[&e&l»&6] &eเวลาที่เหลือในการอนุมัติ &6%time%&es &6[&e&l«&6]'
 registerBossBarTimerColor: 2
 registerBossBarTimerDivision: 2
-registerSuccessRegisteredTitle: '&a&lHi %nickname%'
-registerSuccessRegisteredSubTitle: '&aRegistered'
+registerSuccessRegisteredTitle: '&a&lสวัสดี %nickname%'
+registerSuccessRegisteredSubTitle: '&aลงทะเบียนเรียบร้อย'
 registerSuccessRegisteredFadeIn: 30
 registerSuccessRegisteredStay: 100
 registerSuccessRegisteredFadeOut: 30
 registerSuccessRegisteredChat: |
   &f
-  &8[&a&l»&8] &7Hi on Minecraft Server Network! Here you have useful commands:
+  &8[&a&l»&8] &7สวัสดีบนเครือข่ายเซิร์ฟเวอร์ Minecraft! ที่นี่มีคำสั่งที่เป็นประโยชน์มากมาย:
   &f
   &f  &a&l» &7/unregister <password>
   &f  &a&l» &7/changepassword <current-password> <new-password>
@@ -122,49 +122,49 @@ registerSuccessRegisteredChat: |
   &f  &a&l» &7/recoverypassword <email-address>
   &f
 
-unregisterErrorUserBedrock: '&8[&c&l»&8] &7You are a bedrock player!'
-unregisterErrorUserPremium: '&8[&c&l»&8] &7You are a premium player!'
-unregisterErrorUserNotRegistered: '&8[&c&l»&8] &7You are not registered!'
-unregisterErrorUserNotLogged: '&8[&c&l»&8] &7You are not logged!'
+unregisterErrorUserBedrock: '&8[&c&l»&8] &7คุณเป็นผู้เล่น bedrock!'
+unregisterErrorUserPremium: '&8[&c&l»&8] &7คุณเป็นผู้เล่น premium!'
+unregisterErrorUserNotRegistered: '&8[&c&l»&8] &7คุณยังไม่ได้ลงทะเบียน!'
+unregisterErrorUserNotLogged: '&8[&c&l»&8] &7คุณยังไม่ได้เข้าสู่ระบบ!'
 unregisterErrorUsage: '&8[&c&l»&8] &7Usage: /unregister <password>'
-unregisterErrorWrongPassword: '&8[&c&l»&8] &7A wrong password!'
-unregisterSuccessUnregistered: '&8[&a&l»&8] &7You have been unregistered!'
+unregisterErrorWrongPassword: '&8[&c&l»&8] &7A รหัสผ่านผิด!'
+unregisterSuccessUnregistered: '&8[&a&l»&8] &7คุณได้ยกเลิกการลงทะเบียนแล้ว!'
 
-changePasswordErrorUserNotRegistered: '&8[&c&l»&8] &7You are not registered!'
-changePasswordErrorUserNotLogged: '&8[&c&l»&8] &7You are not logged!'
-changePasswordErrorUserHasNotPassword: '&8[&c&l»&8] &7You do not have a password!'
+changePasswordErrorUserNotRegistered: '&8[&c&l»&8] &7คุณยังไม่ได้ลงทะเบียน!'
+changePasswordErrorUserNotLogged: '&8[&c&l»&8] &7คุณยังไม่ได้ลงทะเบียน!'
+changePasswordErrorUserHasNotPassword: '&8[&c&l»&8] &7คุณไม่มีรหัสผ่าน!'
 changePasswordErrorUsage: '&8[&c&l»&8] &7Usage: /changepassword <current-password> <new-password>'
-changePasswordErrorDifferentNewPasswords: '&8[&c&l»&8] &7The new passwords are different!'
-changePasswordErrorUnsafeNewPassword: '&8[&c&l»&8] &7A new password need to have at least 6 chars of length!'
-changePasswordErrorNewPasswordContainsNickname: '&8[&c&l»&8] &7A new password cannot contain your nickname!'
-changePasswordErrorPasswordTooWeak: '&8[&c&l»&8] &7A password is too weak!'
-changePasswordErrorWrongCurrentPassword: '&8[&c&l»&8] &7A wrong current password!'
-changePasswordSuccessPasswordChanged: '&8[&a&l»&8] &7Your password has been changed!'
+changePasswordErrorDifferentNewPasswords: '&8[&c&l»&8] &7รหัสผ่านใหม่จะต้องแตกต่างกัน!'
+changePasswordErrorUnsafeNewPassword: '&8[&c&l»&8] &7A รหัสผ่านใหม่ต้องมีความยาวอย่างน้อย 6 ตัวอักษร!'
+changePasswordErrorNewPasswordContainsNickname: '&8[&c&l»&8] &7A รหัสผ่านใหม่ต้องไม่มีชื่อเล่นของคุณ!'
+changePasswordErrorPasswordTooWeak: '&8[&c&l»&8] &7A รหัสผ่านอ่อนแอเกินไป!'
+changePasswordErrorWrongCurrentPassword: '&8[&c&l»&8] &7A รหัสผ่านปัจจุบันไม่ถูกต้อง!'
+changePasswordSuccessPasswordChanged: '&8[&a&l»&8] &7รหัสผ่านของคุณถูกเปลี่ยน!'
 
-createPasswordErrorUserNotRegistered: '&8[&c&l»&8] &7You are not registered!'
-createPasswordErrorUserNotLogged: '&8[&c&l»&8] &7You are not logged!'
-createPasswordErrorUserAlreadyHasPassword: '&8[&c&l»&8] &7You already have a password!'
+createPasswordErrorUserNotRegistered: '&8[&c&l»&8] &7คุณไม่ได้ลงทะเบียน!'
+createPasswordErrorUserNotLogged: '&8[&c&l»&8] &7คุณยังไม่ได้เข้าสู่ระบบ!'
+createPasswordErrorUserAlreadyHasPassword: '&8[&c&l»&8] &7คุณมีรหัสผ่านอยู่แล้ว!'
 createPasswordErrorUsage: '&8[&c&l»&8] &7Usage: /createpassword <password>'
-createPasswordErrorDifferentPasswords: '&8[&c&l»&8] &7The passwords are different!'
-createPasswordErrorUnsafePassword: '&8[&c&l»&8] &7A password need to have at least 6 chars of length!'
-createPasswordErrorPasswordContainsNickname: '&8[&c&l»&8] &7A password cannot contain your nickname!'
-createPasswordErrorPasswordTooWeak: '&8[&c&l»&8] &7A password is too weak!'
-createPasswordSuccessPasswordCreated: '&8[&a&l»&8] &7Your password has been created!'
+createPasswordErrorDifferentPasswords: '&8[&c&l»&8] &7รหัสผ่านแตกต่างกัน!'
+createPasswordErrorUnsafePassword: '&8[&c&l»&8] &7A รหัสผ่านต้องมีความยาวอย่างน้อย 6 ตัวอักษร!'
+createPasswordErrorPasswordContainsNickname: '&8[&c&l»&8] &7A รหัสผ่านต้องไม่มีชื่อเล่นของคุณ!'
+createPasswordErrorPasswordTooWeak: '&8[&c&l»&8] &7A รหัสผ่านอ่อนแอเกินไป!'
+createPasswordSuccessPasswordCreated: '&8[&a&l»&8] &7สร้างรหัสผ่านของคุณแล้ว!'
 
-premiumErrorFeatureDisabled: '&8[&c&l»&8] &7This server does not support change an account type!'
-premiumErrorUserBedrock: '&8[&c&l»&8] &7You are a bedrock player!'
-premiumErrorUserAlreadyPremium: '&8[&c&l»&8] &7You are already a premium player!'
-premiumErrorUserNotRegistered: '&8[&c&l»&8] &7You are not registered!'
-premiumErrorUserNotLogged: '&8[&c&l»&8] &7You are not logged!'
+premiumErrorFeatureDisabled: '&8[&c&l»&8] &7เซิร์ฟเวอร์นี้ไม่รองรับการเปลี่ยนประเภทบัญชี!'
+premiumErrorUserBedrock: '&8[&c&l»&8] &7คุณเป็นผู้เล่น bedrock!'
+premiumErrorUserAlreadyPremium: '&8[&c&l»&8] &7คุณเป็นผู้เล่น premium!'
+premiumErrorUserNotRegistered: '&8[&c&l»&8] &7คุณยังไม่ได้ลงทะเบียน!'
+premiumErrorUserNotLogged: '&8[&c&l»&8] &7คุณยังไม่ได้เข้าสู่ระบบ!'
 premiumErrorUsage: '&8[&c&l»&8] &7Usage: /premium <password>'
-premiumErrorWrongPassword: '&8[&c&l»&8] &7A wrong password!'
-premiumErrorServersDown: '&8[&c&l»&8] &7Mojang servers are not responding!'
-premiumErrorDatabaseDown: '&8[&c&l»&8] &7The database is not responding!'
-premiumErrorUserNotPremium: '&8[&c&l»&8] &7You do not have a premium account!'
-premiumErrorUserAlreadyExists: '&8[&c&l»&8] &7The premium player with such an premium id already exits! Please contact with the staff to solve the issue!'
-premiumSuccessPremiumTurnedOn: '&8[&a&l»&8] &7You are a premium player now!'
+premiumErrorWrongPassword: '&8[&c&l»&8] &7A รหัสผ่านผิด!'
+premiumErrorServersDown: '&8[&c&l»&8] &7เซิร์ฟเวอร์ Mojang ไม่ตอบสนอง!'
+premiumErrorDatabaseDown: '&8[&c&l»&8] &7ฐานข้อมูลไม่ตอบสนอง!'
+premiumErrorUserNotPremium: '&8[&c&l»&8] &7ฐานข้อมูลไม่ตอบสนอง!'
+premiumErrorUserAlreadyExists: '&8[&c&l»&8] &7ผู้เล่นระดับพรีเมียมที่มีรหัสพิเศษดังกล่าวออกไปแล้ว! โปรดติดต่อเจ้าหน้าที่เพื่อแก้ไขปัญหา!'
+premiumSuccessPremiumTurnedOn: '&8[&a&l»&8] &7ตอนนี้คุณเป็นผู้เล่นระดับพรีเมียมแล้ว!'
 
-crackedErrorFeatureDisabled: '&8[&c&l»&8] &7This server does not support change an account type!'
+crackedErrorFeatureDisabled: '&8[&c&l»&8] &7เซิร์ฟเวอร์นี้ไม่รองรับการเปลี่ยนประเภทบัญชี!'
 crackedErrorUserBedrock: '&8[&c&l»&8] &7You are a bedrock player!'
 crackedErrorUserNotPremium: '&8[&c&l»&8] &7You are not a premium player!'
 crackedErrorUserHasNotPassword: '&8[&c&l»&8] &7You do not have a password!'

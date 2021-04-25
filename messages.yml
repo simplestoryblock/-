@@ -16,66 +16,66 @@
 
 version: 'CLEARED-Bungee-1.9.4'
 
-preLoginErrorInvalidNickname: '&8[&c&l»&8] &7Please use a different nickname!'
-preLoginErrorInvalidNicknameCases: '&8[&c&l»&8] &7Please change your nickname to &a%nickname%&7!'
-preLoginErrorNotAcceptedHostname: '&8[&c&l»&8] &7Please join to the server via &amc.example.com&7!'
-preLoginErrorAlreadyOnline: '&8[&c&l»&8] &7You are already online!'
-preLoginErrorServersDown: '&8[&c&l»&8] &7Mojang servers are not responding!'
-preLoginErrorRegisterAtWebsite: '&8[&c&l»&8] &7Please register your account on &amc.example.com&7!'
-preLoginErrorChangedPremiumNickname: '&8[&c&l»&8] &7This server does not support change premium nickname, so please come back to your old nickname: &a%nickname%&7!'
-preLoginErrorUserCannotBeLoaded: '&8[&c&l»&8] &7Could not load your user profile!'
-preLoginErrorUserNotLoaded: '&8[&c&l»&8] &7Your user profile was not loaded on the pre-login stage!'
-preLoginPremiumVerification: '&8[&a&l»&8] &7Your premium account has been verified! Please join to the server again!'
+preLoginErrorInvalidNickname: '&8[&c&l»&8] &7กรุณาใช้ชื่ออื่น!'
+preLoginErrorInvalidNicknameCases: '&8[&c&l»&8] &7กรุณาเปลี่ยนชื่อเล่นของคุณเป็น &a%nickname%&7!'
+preLoginErrorNotAcceptedHostname: '&8[&c&l»&8] &7กรุณาเข้าร่วมเซิร์ฟเวอร์ผ่าน &amc.example.com&7!'
+preLoginErrorAlreadyOnline: '&8[&c&l»&8] &7คุณออนไลน์อยู่แล้ว!'
+preLoginErrorServersDown: '&8[&c&l»&8] &7เซิร์ฟเวอร์ Mojang ไม่ตอบสนอง!'
+preLoginErrorRegisterAtWebsite: '&8[&c&l»&8] &7กรุณาลงทะเบียนบัญชีของคุณบน &amc.example.com&7!'
+preLoginErrorChangedPremiumNickname: '&8[&c&l»&8] &7เซิร์ฟเวอร์นี้ไม่รองรับการเปลี่ยนชื่อเล่นในรหัสพรีเมียม, ดังนั้นโปรดกลับมาใช้ชื่อเล่นเดิมของคุณ: &a%nickname%&7!'
+preLoginErrorUserCannotBeLoaded: '&8[&c&l»&8] &7ไม่สามารถโหลดโปรไฟล์ผู้ใช้ของคุณ!'
+preLoginErrorUserNotLoaded: '&8[&c&l»&8] &7ไม่ได้โหลดโปรไฟล์ผู้ใช้ของคุณในขั้นตอนก่อนการเข้าสู่ระบบ!'
+preLoginPremiumVerification: '&8[&a&l»&8] &7บัญชีพรีเมียมของคุณได้รับการยืนยันแล้ว! กรุณาเข้าร่วมเซิร์ฟเวอร์อีกครั้ง!'
 
 disconnectRedirectionTitle: ''
 disconnectRedirectionSubTitle: ''
 disconnectRedirectionFadeIn: 0
 disconnectRedirectionStay: 0
 disconnectRedirectionFadeOut: 0
-disconnectRedirectionChat: '&8[&c&l»&8] &7You have been disconnected from the server and you have been automatically redirected to the other server! The disconnect reason is ''%reason%&7''!'
+disconnectRedirectionChat: '&8[&c&l»&8] &7คุณถูกตัดการเชื่อมต่อจากเซิร์ฟเวอร์และคุณถูกเปลี่ยนเส้นทางไปยังเซิร์ฟเวอร์อื่นโดยอัตโนมัติ! เหตุผลในการตัดการเชื่อมต่อคือ ''%reason%&7''!'
 
-joinSessionPremiumTitle: '&a&lHi %nickname%'
+joinSessionPremiumTitle: '&a&lสวัสดี %nickname%'
 joinSessionPremiumSubTitle: '&aA premium session!'
 joinSessionPremiumFadeIn: 30
 joinSessionPremiumStay: 100
 joinSessionPremiumFadeOut: 30
 joinSessionPremiumChat: ''
-joinSessionCrackedTitle: '&a&lHi %nickname%'
+joinSessionCrackedTitle: '&a&lสวัสดี %nickname%'
 joinSessionCrackedSubTitle: '&aA cracked session!'
 joinSessionCrackedFadeIn: 30
 joinSessionCrackedStay: 100
 joinSessionCrackedFadeOut: 30
 joinSessionCrackedChat: ''
-joinSessionBedrockTitle: '&a&lHi %nickname%'
+joinSessionBedrockTitle: '&a&lสวัสดี %nickname%'
 joinSessionBedrockSubTitle: '&aA bedrock session!'
 joinSessionBedrockFadeIn: 30
 joinSessionBedrockStay: 100
 joinSessionBedrockFadeOut: 30
 joinSessionBedrockChat: ''
-joinRequireLoginTitle: '&e&lYou need to use'
+joinRequireLoginTitle: '&e&lคุณจำเป็นต้องใช้'
 joinRequireLoginSubTitle: '&6/login <password>'
 joinRequireLoginFadeIn: 30
 joinRequireLoginStay: 1200
 joinRequireLoginFadeOut: 30
 joinRequireLoginChat: ''
-joinRequireRegisterTitle: '&e&lYou need to use'
+joinRequireRegisterTitle: '&e&lคุณจำเป็นต้องใช้'
 joinRequireRegisterSubTitle: '&6/register <password>'
 joinRequireRegisterFadeIn: 30
 joinRequireRegisterStay: 1200
 joinRequireRegisterFadeOut: 30
-joinRequireRegisterChat: '' # You can use '%captcha_code%' placeholder to show a captcha code.
+joinRequireRegisterChat: '' # คุณสามาถใช้ '%captcha_code%' ตัวยึดตำแหน่งเพื่อแสดงรหัส captcha.
 
-loginErrorUserBedrock: '&8[&c&l»&8] &7You are a bedrock player!'
-loginErrorUserPremium: '&8[&c&l»&8] &7You are a premium player!'
-loginErrorUserNotRegistered: '&8[&c&l»&8] &7You are not registered!'
-loginErrorUserAlreadyLogged: '&8[&c&l»&8] &7You are already logged!'
+loginErrorUserBedrock: '&8[&c&l»&8] &7คุณเป็นผู้เล่น bedrock!'
+loginErrorUserPremium: '&8[&c&l»&8] &7คุณเป็นผู้เล่น premium !'
+loginErrorUserNotRegistered: '&8[&c&l»&8] &7คุณยังไม่ได้ลงทะเบียน!'
+loginErrorUserAlreadyLogged: '&8[&c&l»&8] &7คูณ login อยู่แล้ว!'
 loginErrorUsage: '&8[&c&l»&8] &7Usage: /login <password>'
-loginErrorWrongPassword: '&8[&c&l»&8] &7A wrong password!'
+loginErrorWrongPassword: '&8[&c&l»&8] &7A password ผิด!'
 loginErrorTimeElapsed: '&8[&c&l»&8] &7An authorisation time elapsed!'
-loginBossBarTimerTitle: '&6[&e&l»&6] &eRemain time to authorization is &6%time%&es &6[&e&l«&6]'
+loginBossBarTimerTitle: '&6[&e&l»&6] &eเวลาที่เหลือในการอนุญาตคือ &6%time%&es &6[&e&l«&6]'
 loginBossBarTimerColor: 2
 loginBossBarTimerDivision: 2
-loginSuccessLoggedTitle: '&a&lHi %nickname%'
+loginSuccessLoggedTitle: '&a&lสวัสดี %nickname%'
 loginSuccessLoggedSubTitle: '&aLogged'
 loginSuccessLoggedFadeIn: 30
 loginSuccessLoggedStay: 100
